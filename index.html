@@ -8,13 +8,26 @@
 				margin: 20px;
 				overflow: hidden;
 				text-align: center;
-			}
+				}
+			#header {
+ 				position: fixed;
+ 				top: 0;
+ 				left: 0;
+ 				width: 100%;
+ 				z-index: 99;
+  				background-color: gray;
+}
 		</style>
 	</head>
 	<body>
-		<div>
-			<h1>🐥 Chloe's Website 🐥</h1>
-			<h2>Welcome !</h2>
-		</div>
+	<div id="header">
+		<h1>🐥 Chloe's Website 🐥</h1>
+		<h2>Welcome !</h2>
+	</div>
+	<div id="NavBar">
+		<button class= "NavButton" onclick= "location.href='index.html';"><b>Home</b></button>
+		<button class= "NavButton" onclick= "location.href='Portfolio.html';"><b>Portfolio</b></button>
+		<button class= "NavButton" onclick= "location.href='AboutMe.html';"><b>About Me</b></button>
+	</div>
 	</body>
 </html>
